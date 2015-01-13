@@ -1,0 +1,4 @@
+Scheduler Solution:
+In this assignment I apply a scheduler that could equally calculate the Nonce among all the miners.
+For example assuming we get a request "message 0 9999", and if we have 2 miners available, I would distribute the workload equally that is miner1 would calculate 0 5000 while miner2 would calculate 5001 9999. And when receiving results combining those two results to get the final answers. 
+During the running period, more joining miners would be moved to pending miner queue which would be moved to the running miner queue if there is any running miner which fails before sending the results or the current job finish.

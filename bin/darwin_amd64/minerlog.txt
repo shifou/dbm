@@ -1,0 +1,13 @@
+22:35:44.744165 miner.go:44: get id:  1
+22:35:44.744256 miner.go:52: miner:  1  write join done
+22:35:44.744264 miner.go:53: [Join]
+22:35:45.255104 miner.go:67: miner:  1  read request-> [Request 7335098811353306369 0 9999]
+22:35:45.275725 miner.go:94: miner:  7681228365795782831  write ans done
+22:35:45.275739 miner.go:95: [Join]
+22:35:45.440114 miner.go:67: miner:  1  read request-> [Request 1182457699452245134 0 99999]
+22:35:45.620662 miner.go:94: miner:  12456520992480997231  write ans done
+22:35:45.620699 miner.go:95: [Join]
+22:35:47.300101 miner.go:67: miner:  1  read request-> [Request 3849359656424220612 0 999999]
+22:35:49.093597 miner.go:94: miner:  7091839556295819535  write ans done
+22:35:49.093618 miner.go:95: [Join]
+22:35:59.096724 miner.go:59: connection lost during read

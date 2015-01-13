@@ -1,0 +1,5 @@
+22:33:48.259878 client.go:46: req:  /Users/mlx/CMU/course/15640/hw/p1/bin/client localhost:23945 2353882391873348427 999
+22:33:48.260027 client.go:51: get id:  3
+22:33:48.260034 client.go:60: client:  3  write done
+22:33:48.260042 client.go:61: [Request 2353882391873348427 0 999]
+22:33:58.263907 client.go:67: connection lost during read

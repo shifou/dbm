@@ -1,0 +1,212 @@
+22:00:24.147303 server.go:243: 1 [Request 5940325799945860122 0 99999]
+22:00:24.147527 server.go:265: receive request form client: 1 [Request 5940325799945860122 0 99999]
+22:00:24.648053 server.go:243: 2 [Join]
+22:00:24.648072 server.go:260: request wait for miner, miner come
+22:00:24.648080 server.go:98: begin assign job:  1 [Request 5940325799945860122 0 99999]  for client:  1  with  1  miners
+22:00:24.648090 server.go:124: assign miner 2 0 99999
+22:00:25.150166 server.go:243: 3 [Join]
+22:00:25.648653 server.go:243: 2 [Result 276553585500452 10547]
+22:00:25.648687 server.go:285: receive ans:  276553585500452 10547
+22:00:25.648696 server.go:291: check miner:  2 0 99999
+22:00:25.648705 server.go:303: left  0  answers, now answer:  276553585500452 10547
+22:00:25.648725 server.go:164: send ans to client:  1 [Result 276553585500452 10547]
+22:00:25.666143 server.go:243: 4 [Request 1024700246427348967 0 9999]
+22:00:25.666159 server.go:265: receive request form client: 4 [Request 1024700246427348967 0 9999]
+22:00:25.666163 server.go:275: miner wait for request, client come
+22:00:25.666171 server.go:98: begin assign job:  2 [Request 1024700246427348967 0 9999]  for client:  4  with  2  miners
+22:00:25.666178 server.go:124: assign miner 2 0 5000
+22:00:25.666213 server.go:124: assign miner 3 5001 9999
+22:00:26.667564 server.go:243: 3 [Result 2054479334743184 5017]
+22:00:26.667591 server.go:285: receive ans:  2054479334743184 5017
+22:00:26.667599 server.go:291: check miner:  2 0 5000
+22:00:26.667606 server.go:291: check miner:  3 5001 9999
+22:00:26.667618 server.go:303: left  1  answers, now answer:  2054479334743184 5017
+22:00:26.686230 server.go:243: 5 [Request 1758454119799305468 0 9999]
+22:00:26.686243 server.go:265: receive request form client: 5 [Request 1758454119799305468 0 9999]
+22:00:28.188693 server.go:243: 6 [Join]
+22:00:28.690243 server.go:243: 7 [Join]
+22:00:29.208348 server.go:243: 8 [Request 5003229945928841569 0 9999]
+22:00:29.208368 server.go:265: receive request form client: 8 [Request 5003229945928841569 0 9999]
+22:00:29.867300 server.go:243: 9 [Request 2481450985087400055 0 99999]
+22:00:29.867319 server.go:265: receive request form client: 9 [Request 2481450985087400055 0 99999]
+22:00:30.385465 server.go:243: 10 [Request 1750565778432571285 0 9999]
+22:00:30.385485 server.go:265: receive request form client: 10 [Request 1750565778432571285 0 9999]
+22:00:30.887205 server.go:243: 11 [Join]
+22:00:31.389178 server.go:243: 12 [Join]
+22:00:31.891861 server.go:243: 13 [Request 5487768058575504581 0 999]
+22:00:31.891883 server.go:265: receive request form client: 13 [Request 5487768058575504581 0 999]
+22:00:33.894565 server.go:243: 14 [Join]
+22:00:34.395837 server.go:243: 15 [Join]
+22:00:34.919568 server.go:243: 16 [Request 6889967898006626674 0 9999]
+22:00:34.919596 server.go:265: receive request form client: 16 [Request 6889967898006626674 0 9999]
+22:00:35.504494 server.go:186: lost miner:  3  when running the job
+22:00:35.504527 server.go:186: lost miner:  2  when running the job
+22:00:35.504535 server.go:65: begin ressign job 2
+22:00:41.505715 server.go:186: lost miner:  7  when running the job
+22:00:41.505743 server.go:186: lost miner:  6  when running the job
+22:00:41.505752 server.go:65: begin ressign job 2
+22:00:42.506437 server.go:243: 11 [Result 18446744073709551615 5000]
+22:00:42.506459 server.go:285: receive ans:  18446744073709551615 5000
+22:00:42.506466 server.go:291: check miner:  11 0 5000
+22:00:42.506471 server.go:303: left  0  answers, now answer:  2054479334743184 5017
+22:00:42.506486 server.go:164: send ans to client:  4 [Result 2054479334743184 5017]
+22:00:42.506511 server.go:173: there is jobs left begin to assign 3
+22:00:42.506516 server.go:174: move pend miner to miner
+22:00:42.506520 server.go:176: -----
+22:00:42.506528 server.go:98: begin assign job:  3 [Request 1758454119799305468 0 9999]  for client:  5  with  4  miners
+22:00:42.506536 server.go:124: assign miner 11 0 2500
+22:00:42.506563 server.go:124: assign miner 12 2501 5001
+22:00:42.506604 server.go:124: assign miner 14 5002 7502
+22:00:42.506648 server.go:124: assign miner 15 7503 9999
+22:00:43.507079 server.go:243: 15 [Result 18446744073709551615 9999]
+22:00:43.507100 server.go:285: receive ans:  18446744073709551615 9999
+22:00:43.507110 server.go:291: check miner:  11 0 2500
+22:00:43.507132 server.go:291: check miner:  12 2501 5001
+22:00:43.507136 server.go:291: check miner:  14 5002 7502
+22:00:43.507140 server.go:291: check miner:  15 7503 9999
+22:00:43.507145 server.go:303: left  3  answers, now answer:  18446744073709551615 9999
+22:00:43.507158 server.go:243: 11 [Result 4299576619647479 1901]
+22:00:43.507162 server.go:285: receive ans:  4299576619647479 1901
+22:00:43.507166 server.go:291: check miner:  11 0 2500
+22:00:43.507171 server.go:303: left  2  answers, now answer:  4299576619647479 1901
+22:00:43.507182 server.go:243: 12 [Result 18446744073709551615 5001]
+22:00:43.507187 server.go:285: receive ans:  18446744073709551615 5001
+22:00:43.507191 server.go:291: check miner:  12 2501 5001
+22:00:43.507195 server.go:303: left  1  answers, now answer:  4299576619647479 1901
+22:00:43.507206 server.go:243: 14 [Result 18446744073709551615 7502]
+22:00:43.507210 server.go:285: receive ans:  18446744073709551615 7502
+22:00:43.507214 server.go:291: check miner:  14 5002 7502
+22:00:43.507218 server.go:303: left  0  answers, now answer:  4299576619647479 1901
+22:00:43.507229 server.go:164: send ans to client:  5 [Result 4299576619647479 1901]
+22:00:43.507263 server.go:173: there is jobs left begin to assign 4
+22:00:43.507268 server.go:174: move pend miner to miner
+22:00:43.507272 server.go:176: -----
+22:00:43.507279 server.go:98: begin assign job:  4 [Request 5003229945928841569 0 9999]  for client:  8  with  4  miners
+22:00:43.507283 server.go:124: assign miner 11 0 2500
+22:00:43.507307 server.go:124: assign miner 12 2501 5001
+22:00:43.507339 server.go:124: assign miner 14 5002 7502
+22:00:43.507365 server.go:124: assign miner 15 7503 9999
+22:00:44.508584 server.go:243: 11 [Result 18446744073709551615 2500]
+22:00:44.508606 server.go:285: receive ans:  18446744073709551615 2500
+22:00:44.508612 server.go:291: check miner:  11 0 2500
+22:00:44.508618 server.go:303: left  3  answers, now answer:  18446744073709551615 2500
+22:00:44.508633 server.go:243: 12 [Result 18446744073709551615 5001]
+22:00:44.508638 server.go:285: receive ans:  18446744073709551615 5001
+22:00:44.508643 server.go:291: check miner:  12 2501 5001
+22:00:44.508648 server.go:303: left  2  answers, now answer:  18446744073709551615 2500
+22:00:44.508662 server.go:243: 14 [Result 246537812496494 7141]
+22:00:44.508666 server.go:285: receive ans:  246537812496494 7141
+22:00:44.508671 server.go:291: check miner:  14 5002 7502
+22:00:44.508676 server.go:303: left  1  answers, now answer:  246537812496494 7141
+22:00:44.508689 server.go:243: 15 [Result 18446744073709551615 9999]
+22:00:44.508693 server.go:285: receive ans:  18446744073709551615 9999
+22:00:44.508698 server.go:291: check miner:  15 7503 9999
+22:00:44.508703 server.go:303: left  0  answers, now answer:  246537812496494 7141
+22:00:44.508716 server.go:164: send ans to client:  8 [Result 246537812496494 7141]
+22:00:44.508742 server.go:173: there is jobs left begin to assign 5
+22:00:44.508747 server.go:174: move pend miner to miner
+22:00:44.508751 server.go:176: -----
+22:00:44.508759 server.go:98: begin assign job:  5 [Request 2481450985087400055 0 99999]  for client:  9  with  4  miners
+22:00:44.508764 server.go:124: assign miner 11 0 25000
+22:00:44.508790 server.go:124: assign miner 12 25001 50001
+22:00:44.508833 server.go:124: assign miner 14 50002 75002
+22:00:44.508867 server.go:124: assign miner 15 75003 99999
+22:00:45.509938 server.go:243: 11 [Result 162992664870739 1486]
+22:00:45.509959 server.go:285: receive ans:  162992664870739 1486
+22:00:45.509965 server.go:291: check miner:  11 0 25000
+22:00:45.509971 server.go:303: left  3  answers, now answer:  162992664870739 1486
+22:00:45.509986 server.go:243: 12 [Result 18446744073709551615 50001]
+22:00:45.509991 server.go:285: receive ans:  18446744073709551615 50001
+22:00:45.509996 server.go:291: check miner:  12 25001 50001
+22:00:45.510018 server.go:303: left  2  answers, now answer:  162992664870739 1486
+22:00:45.510033 server.go:243: 14 [Result 18446744073709551615 75002]
+22:00:45.510038 server.go:285: receive ans:  18446744073709551615 75002
+22:00:45.510042 server.go:291: check miner:  14 50002 75002
+22:00:45.510047 server.go:303: left  1  answers, now answer:  162992664870739 1486
+22:00:45.510060 server.go:243: 15 [Result 18446744073709551615 99999]
+22:00:45.510065 server.go:285: receive ans:  18446744073709551615 99999
+22:00:45.510069 server.go:291: check miner:  15 75003 99999
+22:00:45.510074 server.go:303: left  0  answers, now answer:  162992664870739 1486
+22:00:45.510087 server.go:164: send ans to client:  9 [Result 162992664870739 1486]
+22:00:45.510097 server.go:167: server  write ans to client timeout
+22:00:45.510101 server.go:173: there is jobs left begin to assign 6
+22:00:45.510104 server.go:174: move pend miner to miner
+22:00:45.510108 server.go:176: -----
+22:00:45.510116 server.go:98: begin assign job:  6 [Request 1750565778432571285 0 9999]  for client:  10  with  4  miners
+22:00:45.510120 server.go:124: assign miner 11 0 2500
+22:00:45.510150 server.go:124: assign miner 12 2501 5001
+22:00:45.510199 server.go:124: assign miner 14 5002 7502
+22:00:45.510225 server.go:124: assign miner 15 7503 9999
+22:00:46.511292 server.go:243: 11 [Result 18446744073709551615 2500]
+22:00:46.511319 server.go:285: receive ans:  18446744073709551615 2500
+22:00:46.511328 server.go:291: check miner:  11 0 2500
+22:00:46.511336 server.go:303: left  3  answers, now answer:  18446744073709551615 2500
+22:00:46.511356 server.go:243: 12 [Result 18446744073709551615 5001]
+22:00:46.511363 server.go:285: receive ans:  18446744073709551615 5001
+22:00:46.511369 server.go:291: check miner:  12 2501 5001
+22:00:46.511376 server.go:303: left  2  answers, now answer:  18446744073709551615 2500
+22:00:46.511394 server.go:243: 14 [Result 2268761400764636 7436]
+22:00:46.511401 server.go:285: receive ans:  2268761400764636 7436
+22:00:46.511407 server.go:291: check miner:  14 5002 7502
+22:00:46.511414 server.go:303: left  1  answers, now answer:  2268761400764636 7436
+22:00:46.511430 server.go:243: 15 [Result 18446744073709551615 9999]
+22:00:46.511437 server.go:285: receive ans:  18446744073709551615 9999
+22:00:46.511443 server.go:291: check miner:  15 7503 9999
+22:00:46.511450 server.go:303: left  0  answers, now answer:  2268761400764636 7436
+22:00:46.511466 server.go:164: send ans to client:  10 [Result 2268761400764636 7436]
+22:00:46.511502 server.go:173: there is jobs left begin to assign 7
+22:00:46.511509 server.go:174: move pend miner to miner
+22:00:46.511514 server.go:176: -----
+22:00:46.511526 server.go:98: begin assign job:  7 [Request 5487768058575504581 0 999]  for client:  13  with  4  miners
+22:00:46.511532 server.go:124: assign miner 11 0 250
+22:00:46.511583 server.go:124: assign miner 12 251 501
+22:00:46.511634 server.go:124: assign miner 14 502 752
+22:00:46.511670 server.go:124: assign miner 15 753 999
+22:00:47.512576 server.go:243: 15 [Result 18446744073709551615 999]
+22:00:47.512597 server.go:285: receive ans:  18446744073709551615 999
+22:00:47.512605 server.go:291: check miner:  11 0 250
+22:00:47.512610 server.go:291: check miner:  12 251 501
+22:00:47.512614 server.go:291: check miner:  14 502 752
+22:00:47.512619 server.go:291: check miner:  15 753 999
+22:00:47.512625 server.go:303: left  3  answers, now answer:  18446744073709551615 999
+22:00:47.512640 server.go:243: 11 [Result 18446744073709551615 250]
+22:00:47.512645 server.go:285: receive ans:  18446744073709551615 250
+22:00:47.512649 server.go:291: check miner:  11 0 250
+22:00:47.512654 server.go:303: left  2  answers, now answer:  18446744073709551615 250
+22:00:47.512670 server.go:243: 12 [Result 18446744073709551615 501]
+22:00:47.512674 server.go:285: receive ans:  18446744073709551615 501
+22:00:47.512679 server.go:291: check miner:  12 251 501
+22:00:47.512684 server.go:303: left  1  answers, now answer:  18446744073709551615 250
+22:00:47.512697 server.go:243: 14 [Result 6051753906765899 525]
+22:00:47.512719 server.go:285: receive ans:  6051753906765899 525
+22:00:47.512724 server.go:291: check miner:  14 502 752
+22:00:47.512729 server.go:303: left  0  answers, now answer:  6051753906765899 525
+22:00:47.512742 server.go:164: send ans to client:  13 [Result 6051753906765899 525]
+22:00:47.512778 server.go:173: there is jobs left begin to assign 8
+22:00:47.512784 server.go:174: move pend miner to miner
+22:00:47.512788 server.go:176: -----
+22:00:47.512796 server.go:98: begin assign job:  8 [Request 6889967898006626674 0 9999]  for client:  16  with  4  miners
+22:00:47.512801 server.go:124: assign miner 11 0 2500
+22:00:47.512828 server.go:124: assign miner 12 2501 5001
+22:00:47.512853 server.go:124: assign miner 14 5002 7502
+22:00:47.512892 server.go:124: assign miner 15 7503 9999
+22:00:48.514189 server.go:243: 15 [Result 18446744073709551615 9999]
+22:00:48.514218 server.go:285: receive ans:  18446744073709551615 9999
+22:00:48.514226 server.go:291: check miner:  11 0 2500
+22:00:48.514231 server.go:291: check miner:  12 2501 5001
+22:00:48.514236 server.go:291: check miner:  14 5002 7502
+22:00:48.514240 server.go:291: check miner:  15 7503 9999
+22:00:48.514246 server.go:303: left  3  answers, now answer:  18446744073709551615 9999
+22:00:48.514263 server.go:243: 11 [Result 18446744073709551615 2500]
+22:00:48.514268 server.go:285: receive ans:  18446744073709551615 2500
+22:00:48.514272 server.go:291: check miner:  11 0 2500
+22:00:48.514277 server.go:303: left  2  answers, now answer:  18446744073709551615 2500
+22:00:48.514290 server.go:243: 12 [Result 18446744073709551615 5001]
+22:00:48.514295 server.go:285: receive ans:  18446744073709551615 5001
+22:00:48.514300 server.go:291: check miner:  12 2501 5001
+22:00:48.514305 server.go:303: left  1  answers, now answer:  18446744073709551615 2500
+22:00:48.514317 server.go:243: 14 [Result 1126144337849338 5827]
+22:00:48.514322 server.go:285: receive ans:  1126144337849338 5827
+22:00:48.514326 server.go:291: check miner:  14 5002 7502
+22:00:48.514331 server.go:303: left  0  answers, now answer:  1126144337849338 5827
+22:00:48.514344 server.go:164: send ans to client:  16 [Result 1126144337849338 5827]
