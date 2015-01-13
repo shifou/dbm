@@ -1,4 +1,4 @@
-p1
+Project 1: Distributed Bitcoin Miner
 ==
 
 This repository contains the starter code for project 1 (15-440, Spring 2014). It also contains
